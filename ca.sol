@@ -1,3 +1,8 @@
+/**
+https://hourglassworld.games
+https://linktr.ee/hourglassworld
+*/
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -567,7 +572,7 @@ abstract contract Ownable is Context {
     }
 }
 
-contract HGWTEST is ERC20, Ownable {
+contract HGW is ERC20, Ownable {
 
     address public constant deadAddress = address(0xdead);
 
